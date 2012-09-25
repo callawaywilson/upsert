@@ -92,6 +92,7 @@ class Upsert
     'PGConn'            => 'PG_Connection',
     'PG::Connection'    => 'PG_Connection',
     'Mysql2::Client'    => 'Mysql2_Client',
+    'ActiveRecord::ConnectionAdapters::EMPostgreSQLAdapter::ConnectionPool' => 'PG_Connection'
   }
 
   # @return [Upsert::Connection]
